@@ -1,0 +1,38 @@
+{
+  "name": "ngx-lenis",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve demo",
+    "build": "ng build ngx-lenis",
+    "build:demo": "ng build demo",
+    "watch": "ng build ngx-lenis --watch --configuration development",
+    "test": "ng test ngx-lenis --watch=false",
+    "test:demo": "ng test demo --watch=false"
+  },
+  "private": true,
+  "packageManager": "npm@11.21.1",
+  "dependencies": {
+    "@angular/common": "^22.3.0",
+    "@angular/compiler": "^22.3.0",
+    "@angular/core": "^22.3.0",
+    "@angular/forms": "^22.3.0",
+    "@angular/platform-browser": "^22.3.0",
+    "@angular/router": "^22.3.0",
+    "gsap": "^3.15.1",
+    "lenis": "^1.3.27",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^22.3.0",
+    "@angular/cli": "^22.3.0",
+    "@angular/compiler-cli": "^22.3.0",
+    "jsdom": "^31.0.0",
+    "prettier": "^3.8.1",
+    "typescript": "~6.0.2",
+    "vitest": "^5.0.0"
+  },
+  "description": "Workspace for the ngx-lenis Angular library draft (unpublished).",
+  "license": "MIT"
+}

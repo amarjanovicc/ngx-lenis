@@ -1,0 +1,43 @@
+@import 'lenis/dist/lenis.css';
+
+:root {
+  color-scheme: light dark;
+  font-family: Inter, system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+}
+
+.bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  align-items: center;
+  padding: 0.75rem 1.25rem;
+  background: canvas;
+  border-bottom: 1px solid color-mix(in srgb, canvastext 12%, transparent);
+}
+
+.panel {
+  min-height: 90vh;
+  padding: 20vh 1.5rem 2rem;
+}
+
+.tone-a { background: #f4f0e6; color: #1a1a1a; }
+.tone-b { background: #1658c9; color: #f4f0e6; }
+.tone-c { background: #030407; color: #f4f0e6; }
+
+button, a {
+  font: inherit;
+}
+
+code {
+  font-size: 0.95em;
+}
